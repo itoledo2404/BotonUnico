@@ -13,8 +13,10 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		//Creo el boton
 		final Button boton = (Button)findViewById(R.id.button1);
 		
+		//Creo el Listener del Click Boton
 		boton.setOnClickListener(new Button.OnClickListener(){
 
 			@Override
